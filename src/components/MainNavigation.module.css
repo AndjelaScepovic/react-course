@@ -1,0 +1,24 @@
+.header{
+    position: fixed;
+    top: 0; 
+    margin: auto;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.list a:hover,
+.list a.active {
+    text-decoration: underline;
+    color:cadetblue;
+}
